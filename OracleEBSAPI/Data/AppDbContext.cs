@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OracleEBSAPI.Models;
+using OracleEBSAPI.Data.Entities;
 
 namespace OracleEBSAPI.Data;
 

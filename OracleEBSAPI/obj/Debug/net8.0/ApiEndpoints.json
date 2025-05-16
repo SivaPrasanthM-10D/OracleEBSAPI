@@ -9,11 +9,9 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[OracleEBSAPI.Models.Employee, OracleEBSAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[OracleEBSAPI.Data.Entities.Employee, OracleEBSAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
+          "application/xml"
         ],
         "StatusCode": 200
       }
@@ -29,17 +27,15 @@
     "Parameters": [
       {
         "Name": "employee",
-        "Type": "OracleEBSAPI.Models.Employee",
+        "Type": "OracleEBSAPI.Data.Entities.Employee",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "OracleEBSAPI.Models.Employee",
+        "Type": "OracleEBSAPI.Data.Entities.Employee",
         "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
+          "application/xml"
         ],
         "StatusCode": 200
       }
@@ -61,11 +57,9 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "OracleEBSAPI.Models.Employee",
+        "Type": "OracleEBSAPI.Data.Entities.Employee",
         "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
+          "application/xml"
         ],
         "StatusCode": 200
       }
@@ -86,7 +80,7 @@
       },
       {
         "Name": "updated",
-        "Type": "OracleEBSAPI.Models.Employee",
+        "Type": "OracleEBSAPI.Data.Entities.Employee",
         "IsRequired": true
       }
     ],

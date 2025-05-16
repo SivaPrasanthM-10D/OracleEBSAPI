@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OracleEBSAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8052156fd0f7fb4e197b26205d73ba343501a288")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cddc51b7e23fb4f5f98263f8f4b94e7e4da0ae94")]
 [assembly: System.Reflection.AssemblyProductAttribute("OracleEBSAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OracleEBSAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
